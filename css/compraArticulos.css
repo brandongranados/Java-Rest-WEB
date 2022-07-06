@@ -1,0 +1,99 @@
+body{
+    background-image: url(../img/azure.jpg);
+}
+main > span, form input, form button, button.addCar, article, article > span, article div.contAddCar, div.contAddCar input, article > img{
+    border: 2px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.722);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main  > span,div.contAddCar input, article p, article label, button.addCar, button.addCar{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+main  > span{
+    width: 30%;
+    height: 1.3em;
+    margin: 10% auto 0% auto;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+form input{
+    width: 75%;
+    border: 4px;
+    border-radius: 5px;
+    border-color: black;
+}
+form label, form button{
+    text-transform: uppercase;
+    font-size: 25x;
+    font-weight: bolder;
+}
+form button, button.addCar{
+    background-color: black;
+    color: azure;
+    width: 10%;
+    height: 1.7em;
+    margin-bottom: 2px;
+}
+form button:hover, button.addCar:hover{
+    transform: scale(1.11);
+    transition: all 0.05s ease-in-out;
+}
+form button:active, button.addCar:active{
+    transform: scale(0.91);
+    transition: all 0.05s ease-in-out;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article{
+    width: 25%;
+    height: 42%;
+    margin: 5px auto 0px auto;
+}
+article > img{
+    display: block;
+    width: 90%;
+    margin: 5% auto 0px auto;
+}
+article > span, article div.contAddCar{
+    display: block;
+    width: 90%;
+    margin: 5px auto 0px auto;
+}
+article div.contAddCar{
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto 0px auto;
+}
+div.contAddCar input{
+    width: 60%;
+    margin: 5px auto;
+    font-size: 14px;
+}
+article label
+{
+    margin: 5px auto;
+}
+article p, article label, button.addCar{
+    font-size: 17px;
+    background-color: inherit;
+}
+button.addCar{
+    width: 50%;
+    margin: 5px auto;
+}
+nav li{
+    width: 30%;
+}

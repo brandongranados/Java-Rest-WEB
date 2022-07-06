@@ -1,0 +1,69 @@
+body{
+    background-image: url(../img/datacenter.webp);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 51.3%;
+    margin: 2px auto;
+}
+form label{
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: azure;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.57);
+    border: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+}
+input, textarea, button, img{
+    display: block;
+    width: 50%;
+    margin: 2px auto;
+    background-color: rgba(0, 0, 0, 0.509);
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+}
+section > input{
+    width: 65%;
+    margin: auto;
+}
+textarea::placeholder, input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px;
+    text-align: center;
+}
+img{
+    height: 60vh;
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.825);
+}
+button:hover{
+    transform: scale(1.21);
+    transition: all 0.05s ease-in-out;
+}
+button:active{
+    transform: scale(0.76);
+    transition: all 0.05s ease-in-out;
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/azure2.png);
+}
+table, tr, td{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+main table{
+    width: 97%;
+    margin: 5px auto;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.696);
+    text-align: center;
+}
+.msms-y-tittles{
+    text-transform: uppercase;
+}
+.anchoFoto{
+    width: 19%;
+}
+.anchoDescrip{
+    width: 49%;
+}
+.anchoRest{
+    width: 9%;
+}
+.tdelimina{
+    width: 5%;
+}
+.tdelimina #eliminaImagen{
+    display: block;
+    margin: auto;
+    width: 98%;
+    height: 10%;
+}
+.tdelimina .inputElimina{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
